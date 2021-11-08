@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #55a378;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-image: url("https://i.pinimg.com/originals/7a/81/24/7a81240359e212d40a665222ff3d13aa.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  color: #ffffff;
+}
+
+.search {
+  border-radius: 30px;
+  background-color: rgba(37, 22, 70, 0.548);
+}
+
+.submitBtn {
+  background-color: #307272;
+  width: 250px;
+  border-radius: 15px;
+}
+.Button1{
+  font-size: large;
+  text-align: center;
+  background-color: #2b68479a;
+  width: 250px;
+  padding: 25px;
+  border-radius: 30px;
+  white-space: pre-line;
+}
+.text {
+  font-size: x-large;
+  padding-top: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  font-family: 'Righteous', cursive;
+  color: #d39494;
+  line-height: 1.7;
+  font-size: 19px;
+  background-color: #222222;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23424242' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+
+
